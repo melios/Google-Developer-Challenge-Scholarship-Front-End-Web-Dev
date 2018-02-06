@@ -1,0 +1,52 @@
+body {
+	font-family: ubuntu, sans serif;
+}
+
+/* do not display h1 */
+h1 {
+	visibility: hidden
+}
+
+.bold {
+	text-align: center;
+	font-weight: bold;
+	padding: 3px 5px;
+	color: #110b06;
+}
+
+.facts {
+	border-radius: 12px;
+	margin: 0 6px;
+	padding: 0px 12px;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	border-radius: 30px;
+}
+
+.picture {
+	vertical-align: middle;
+	text-align: center;
+	margin: auto;
+}
+
+.nature {
+	font-style: italic;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.animal-card {
+	text-align: justify;
+	border: 2px solid #7a2434;
+	border-radius: 7px;
+	box-shadow: 5x 5px 5px -5px rgba(0,0,0,0.5);
+	width: 300px;
+	padding: 10px 10px 10px 10px;
+	background-color: #F8F8FF;
+}
