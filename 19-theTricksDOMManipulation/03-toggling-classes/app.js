@@ -1,0 +1,21 @@
+/*
+For this quiz, remove the class 'featured' from Article #2 and add it to Article #3!
+
+You must use jQuery's toggleClass method!
+*/
+
+// don't change these variable!
+var article2, article3;
+
+// your code goes here!
+article2 = $('.featured').toggleClass('featured');
+article3 = $('.article-item');
+//simple example
+//article2.next().css( "background-color", "red" );
+article2.next().toggleClass('featured');
+
+// simple solution using variables
+// article2 = $('.featured');
+// article3 = article2.next();
+// article2.toggleClass('featured');
+// article3.toggleClass('featured');
